@@ -21,14 +21,14 @@ Visita la [Web oficial de Nardoni Repuestos](https://nardonirepuestos.com.ar) pa
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/tu-usuario/nardoni-repuestos-web.git
+   git clone https://github.com/ignacioaortiz/nardoni_repuestos_web.git
 
    ```
 
 2. Navega al directorio del proyecto:
 
    ```bash
-   cd nardoni-repuestos-web
+   cd nardoni_repuestos_web
    ```
 
 3. Instala las dependencias del proyecto:
