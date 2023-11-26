@@ -1,0 +1,35 @@
+/* Estilo para las flechas personalizadas */
+.custom-next-arrow,
+.custom-prev-arrow {
+  position: absolute;
+  top: 45%; /* Ajusta la posición vertical */
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  transition: background 0.3s;
+  z-index: 1;
+  border-radius: 50%; /* Hace que las flechas sean redondas */
+  width: 36px; /* Ajusta el ancho de las flechas */
+  height: 36px; /* Ajusta la altura de las flechas */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.custom-next-arrow:hover,
+.custom-prev-arrow:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.custom-next-arrow {
+  right: 10px; /* Ajusta la posición de la flecha "Next" según sea necesario */
+}
+
+.custom-prev-arrow {
+  left: 10px; /* Ajusta la posición de la flecha "Prev" según sea necesario */
+}
